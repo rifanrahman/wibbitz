@@ -1,0 +1,242 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+a{
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+.wrapper{
+        width: 90%;
+        margin: 0 auto;
+        max-width: 1200px;
+}
+
+.menu-toggle {
+    display: none; /* Hide by default for screens wider than 980px */
+    flex-direction: column;
+    cursor: pointer;
+}
+header{
+    width: 100%;
+}
+header .wrapper{
+    width: 97%;
+    margin: 0 auto;
+    max-width: 1530px;
+}
+header #top{
+    display: flex;
+    justify-content: space-between;
+    padding: 65px;
+}
+header #top .left{
+    width: 15%;
+}
+header #top .left img{
+    width: 100%;
+    display: block;
+}
+header #top .Middle{}
+header #top .Middle ul{
+    display: flex;
+}
+header #top .Middle ul li{
+    margin-right: 30px;
+}
+header #top .right ul{
+    display: flex;
+}
+header #top .right ul li{
+    margin-right: 30px;
+}
+header section #top div.right ul li a.button {
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: #ff794b;
+    background: #ffe4da;
+    font-weight: 600;
+}
+header section #top div.right ul li a.button:hover {
+    color: #fff;
+    background: #ff794b;
+}
+
+#first{}
+#first .wrapper1{
+    margin: 0 auto;
+    width: 82%;
+}
+#first .top{
+    display: flex;
+    justify-content: space-around;
+}
+#first .top .left{
+    margin-top: 80px;
+ 
+}
+#first .top .left h1{
+    font-size: 58px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+#first .top .left p{
+    font-size: 21px;
+    font-weight: 600;
+}
+#first .top .left form{
+    margin-top: 45px;
+}
+#first .top .left form input[type="email"] {
+    border: 1px solid #312d2d;
+    padding: 15px 147px 18px 28px;
+    border-radius: 15px;
+}
+#first .top .left form input[type="submit"] {
+    position: absolute;
+    border: 1px solid #0052cc;
+    background: #0052cc;
+    color: #ffff;
+    padding: 17px 16px;
+    border-radius: 8px;
+    left: 432px;
+}
+#first .top .right {
+    margin-top: 60px;
+}
+#first .top .right img{
+    width: 705px;
+    display: block;
+}
+#first .bottom {
+    width: 100%;
+    margin-top: 70px;
+}
+#first .bottom p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+#first .bottom ul {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#first .bottom ul li {
+    margin-right: -80px;
+}
+
+@media (max-width: 1280px){
+    header {
+        width: 108%;
+    }
+    header .wrapper {
+        width: 100%;
+     
+    }
+    
+    header #top .left {
+        width: 17%;
+    }
+    a {
+        
+        font-size: 15px;
+    }
+    .wrapper {
+        width: 84%;
+   
+    }
+    #first .top .left h1 {
+        font-size: 39px;
+        font-weight: 800;
+        margin-bottom: 30px;
+    }
+    #first .top .left p {
+        font-size: 19px;
+       
+    }
+    #first .top .right img {
+        width: 122%;
+        display: block;
+    }
+    #first .top .left form input[type="submit"] {
+       
+        left: 414px;
+    }
+}
+@media (max-width: 1050px){
+    header .wrapper {
+        width: 105%;
+    }
+    header #top .Middle ul {
+        display: none;
+    }
+    #first .top .left form input[type="email"] {
+      
+        padding: 15px 116px 18px 28px;
+    
+    }
+    #first .top .left form input[type="submit"] {
+        left: 350px;
+    }
+}
+@media screen and (max-width: 980px) {
+    header .wrapper {
+      width: 94%; /* Adjusted from 106% */
+    }
+  
+    header #top .right ul {
+      display: none;
+    }
+  
+    header #top {
+      padding: 39px;
+      align-items: center;
+    }
+  
+    .menu-toggle {
+      display: flex;
+      width: 70px;
+      cursor: pointer; /* Add this to indicate it's clickable */
+    }
+  
+    nav ul.active {
+      display: none;
+      flex-direction: column;
+      background-color: white;
+      position: absolute;
+      top: 47px;
+      right: 169px;
+      width: 156px;
+      padding: -7px
+    }
+  
+    nav ul.active li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
+
+@media screen and (max-width: 768px){
+   
+}
+@media screen and (max-width: 640px){}
+@media screen and (max-width: 480px){}
+@media screen and (max-width: 360px){}
+
+  
